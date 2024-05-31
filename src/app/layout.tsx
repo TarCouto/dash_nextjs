@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark antialiased">
       <body className={inter.className}>
-        <div className="min-h-screen dark:bg-zinc-800 flex w-full">
+        <div className="min-h-screen dark:bg-zinc-700 flex w-full">
           <Sidebar />
           <main className="flex-1 px-4 pb-12 pl-0 lg:px-8 m-0 ml-80">
             {children}
